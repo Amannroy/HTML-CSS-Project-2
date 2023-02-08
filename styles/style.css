@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f0daaf;
+}
+ nav{
+    padding:20px 10%;
+    height:15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+}
+nav ul li img{
+width:100px; 
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-left-section{
+    width:40%;
+    margin-left: 30px;
+}
+.hero-left-section h1{
+font-size: 60px;
+}
+.hero-left-section p{
+    margin:5% 0;
+}
+.hero-left-section-btn{
+    padding: 15px 20px;
+    font-size: 18px;
+    color:white;
+    font-weight: 600;
+    border:none;
+    background-color: #3b855b;
+    border-radius: 10px;
+}
+.hero-left-section-btn:hover{
+    color:#3b855b;
+    background-color: white;
+    cursor: pointer;
+}
+.hero-right-section{
+    width:60%;
+    padding:7%;
+    
+}
+.hero-right-section div img{
+    width:30%;
+}
+.hero-right-section div img:first-child{
+    margin-right: 20px;
+}
+.hero-right-section div{
+    margin-bottom: 20px;
+}
+.hero-right-section > img{
+    width:64%;
+}
